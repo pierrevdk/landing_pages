@@ -8,5 +8,5 @@
   const utm_content = urlParams.get('utm_content');
   Array.from(
     document.getElementsByClassName('cta-button')).forEach(
-    element=> {element.href="https://www.myholy.fr/pages/lookbook"+'?utm_source='+utm_source+'&utm_medium='+utm_medium+'&utm_campaign='+utm_campaign+'&utm_content='+utm_content;})
+    element=> {element.href="https://www.yourfinalurl.com"+'?utm_source='+utm_source+'&utm_medium='+utm_medium+'&utm_campaign='+utm_campaign+'&utm_content='+utm_content;})
 </script>
